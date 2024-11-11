@@ -325,8 +325,6 @@ Here are the important aspects of the undo/redo implementation:
 
 ---
 
-
-
 ### Data archiving
 
 The archive and load feature is achieved through `ArchiveCommand` and `LoadCommand` which both extend the `Command` class. When such command is executed, the LogicManager will update the Storage when necessary.
